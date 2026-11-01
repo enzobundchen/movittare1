@@ -87,6 +87,7 @@ a { color: inherit; }
 .hero h1 em { display: block; color: var(--violeta); font-style: italic; }
 .hero__lead { max-width: 34em; margin: 22px 0 30px; font-size: clamp(1.0625rem, 1rem + .35vw, 1.25rem); color: var(--texto-suave); }
 .hero__foto img { width: 100%; aspect-ratio: 5 / 6; object-fit: cover; object-position: 50% 12%; border-radius: 999px 999px 0 0; }
+.com-animacao .hero__txt, .com-animacao .hero__foto { visibility: hidden; }
 
 .secao { max-width: var(--largura); margin: auto; padding: var(--secao) var(--gutter); }
 .cabeca { max-width: 42rem; }
